@@ -3,6 +3,8 @@ package thread.control;
 public class CheckedExceptionMain {
 
     public static void main(String[] args) throws Exception {
+        System.out.println(System.getProperty("file.encoding"));
+
         throw new Exception();
     }
 
