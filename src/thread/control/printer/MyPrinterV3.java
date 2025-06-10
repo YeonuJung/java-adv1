@@ -27,8 +27,8 @@ public class MyPrinterV3 {
     }
 
     static class Printer implements Runnable {
-        Queue<String> jobQueue = new ConcurrentLinkedQueue();
 
+        Queue<String> jobQueue = new ConcurrentLinkedQueue();
 
         @Override
         public void run() {
