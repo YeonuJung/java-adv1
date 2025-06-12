@@ -14,9 +14,9 @@ public class MapMain {
         System.out.println("map1 = " + map1);
 
         Map<Integer, String> map2 = new ConcurrentSkipListMap<>();
-        map1.put(2, "data2");
-        map1.put(3, "data3");
-        map1.put(1, "data1");
-        System.out.println("map1 = " + map1);
+        map2.put(2, "data2");
+        map2.put(3, "data3");
+        map2.put(1, "data1");
+        System.out.println("map2 = " + map2);
     }
 }
